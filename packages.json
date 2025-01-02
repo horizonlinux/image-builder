@@ -1,0 +1,96 @@
+{
+	"all": {
+		"include": {
+			"all": [
+				"adcli",
+				"adw-gtk3-theme",
+				"bcache-tools",
+				"borgbackup",
+				"bootc",
+				"ddcutil",
+				"evtest",
+				"epson-inkjet-printer-escpr",
+				"epson-inkjet-printer-escpr2",
+				"fastfetch",
+				"fish",
+				"foo2zjs",
+				"fuse-encfs",
+				"gcc",
+				"git",
+				"git-credential-libsecret",
+				"hplip",
+				"krb5-workstation",
+				"ifuse",
+				"libimobiledevice",
+				"libxcrypt-compat",
+				"libsss_autofs",
+				"lm_sensors",
+				"make",
+				"mesa-libGLU",
+				"oddjob-mkhomedir",
+				"opendyslexic-fonts",
+				"printer-driver-brlaser",
+				"pulseaudio",
+				"pulseaudio-utils",
+				"python3",
+				"python3-pip",
+				"samba-dcerpc",
+				"samba-ldb-ldap-modules",
+				"samba-winbind-clients",
+				"samba-winbind-modules",
+				"samba",
+				"setools-console",
+				"sssd-ad",
+				"sssd-krb5",
+				"sssd-nfs-idmap",
+				"stress-ng",
+				"tailscale",
+				"tmux",
+				"usbmuxd",
+				"wireguard-tools",
+				"xprop",
+				"wl-clipboard",
+				"zsh"
+			],
+			"silverblue": [
+				"gnome-shell-extension-appindicator",
+				"gnome-shell-extension-blur-my-shell",
+				"gnome-shell-extension-dash-to-dock",
+				"libgda",
+				"libgda-sqlite",
+				"nautilus-open-any-terminal",
+				"openssh-askpass",
+				"simple-scan",
+				"zenity"
+				
+			]
+		},
+		"exclude": {
+			"all": [
+				"firefox-langpacks",
+				"firefox",
+				"podman-docker",
+				"ublue-os-update-services"
+			],
+			"silverblue": [
+				"gnome-extensions-app",
+				"gnome-shell-extension-background-logo",
+				"gnome-software-rpm-ostree",
+				"gnome-terminal-nautilus",
+			],
+		}
+	},
+	"41": {
+		"include": {
+			"all": [
+				"google-noto-fonts-all"
+			],
+			"silverblue": []
+		},
+		"exclude": {
+			"all": [],
+			"silverblue": [],
+			"dx": []
+		}
+	}
+}
