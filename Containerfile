@@ -3,8 +3,8 @@ ARG SOURCE_SUFFIX="-main"
 ARG SOURCE_TAG="latest"
 FROM ghcr.io/ublue-os/${SOURCE_IMAGE}${SOURCE_SUFFIX}:${SOURCE_TAG}
 
-COPY / /
+COPY build.sh /tmp/
+COPY /build_files/ /tmp/
 
 RUN --mount=type=cache,dst=/var/cache/rpm-ostree \
-    --mount=type=bind,from=ctx,source=/,target=/ctx \
-    /ctx/build_files/shared/build-base.sh
+    /tmp/base.sh

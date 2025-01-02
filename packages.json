@@ -50,7 +50,8 @@
 				"wireguard-tools",
 				"xprop",
 				"wl-clipboard",
-				"zsh"
+				"zsh",
+				"google-noto-fonts-all"
 			],
 			"silverblue": [
 				"gnome-shell-extension-appindicator",
@@ -78,19 +79,6 @@
 				"gnome-software-rpm-ostree",
 				"gnome-terminal-nautilus",
 			],
-		}
-	},
-	"41": {
-		"include": {
-			"all": [
-				"google-noto-fonts-all"
-			],
-			"silverblue": []
-		},
-		"exclude": {
-			"all": [],
-			"silverblue": [],
-			"dx": []
 		}
 	}
 }
