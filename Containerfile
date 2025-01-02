@@ -7,4 +7,4 @@ COPY build.sh /tmp/build.sh
 COPY /build_files/ /tmp/build_files/
 
 RUN --mount=type=cache,dst=/var/cache/rpm-ostree \
-    /tmp/base.sh
+    /tmp/build.sh
